@@ -39,8 +39,7 @@
 			<div class="card">
 				<div class="card-header">
 					<h1 class="card-title mb-0">
-						<i class="me-1">🎯</i>
-						AIT Monthly Hours
+						🎯 AIT Monthly Hours
 					</h1>
 				</div>
 				<div class="card-body">

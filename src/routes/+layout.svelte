@@ -1,6 +1,6 @@
 <script>
     import favicon from '$lib/assets/favicon.svg';
-    import { fly, fade } from 'svelte/transition';
+    import { fly, fade, slide } from 'svelte/transition';
     import { hoursStore, setUsed } from '$lib/hoursStore.js';
 
     let { children } = $props();
@@ -10,8 +10,7 @@
     let hours = $derived($hoursStore);
 
     function openEditor(key) {
-        activeKey = key;
-        showMenu = false;
+        activeKey = activeKey === key ? null : key;
         showMenu = true;
     }
 

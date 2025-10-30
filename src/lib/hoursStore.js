@@ -3,7 +3,7 @@ import { writable } from 'svelte/store';
 export const hoursStore = writable({
     architecture: { total: 100, used: 24 },
     delivery: { total: 250, used: 86 },
-    worldport: { total: 1200, used: 334 }
+    worldport: { total: 1400, used: 334 }
 });
 
 export function setUsed(projectKey, used) {
